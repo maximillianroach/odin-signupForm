@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left-region">
+        <img class="plant-img" src="photo-1585202900225-6d3ac20a6962.avif">
+        <div class="logo-box">
+            <img class="odin-image" src="odin-lined.png">
+            <div class="odin-text">The Odin Project</div>
+        </div>
+    </div>
+
+    <div class="right-region">
+        <div class="quote">
+            <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</div>
+            <div>You <em>know</em> you want to.</div>
+        </div>
+
+        <div class="signup-region">
+            <div class="signup-header">Let's do this!</div>
+            <form id="myForm" action="/data" method="post">
+
+                <fieldset>
+
+                    <div class="input_box">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+
+                    <div class="input_box">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+    
+                </fieldset>
+
+                <fieldset>
+                    <div class="input_box">
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="mail">
+                    </div>
+
+                    <div class="input_box">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="text" id="phone_number" name="phone_number">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="input_box">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" minlength="5" maxlength = "10" required>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" minlength="5" maxlength = "10" required>
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+        </div>
+
+        <div class="button-region">
+            <button class="submit-button" type="submit" form="myForm">Create Account</button>
+
+        </div>
+    </div>
+    
+</body>
+</html>
